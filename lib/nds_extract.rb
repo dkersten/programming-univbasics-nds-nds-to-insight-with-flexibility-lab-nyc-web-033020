@@ -112,6 +112,7 @@ def movies_with_directors_set(source)
     director_info = source[i]
     mov_name = director_info[:name]
     mov_title = director_info[:movies]
+    directors_movies.push(movies_with_director_key)
     
     i += 1
   end

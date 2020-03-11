@@ -55,7 +55,12 @@ def movies_with_director_key(name, movies_collection)
   i = 0
   
   while i < name.length do
+    collection_of_movies[:director_name] = name[i]
     
+    k = 0
+    while k < movies_collection.length do
+      
+    end
     i += 1
   end
   collection_of_movies
